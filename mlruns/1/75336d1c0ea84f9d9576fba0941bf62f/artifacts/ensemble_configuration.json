@@ -1,0 +1,9 @@
+{
+  "decision_tree_depth5": 0.28538045638092596,
+  "lgbm_regularized": 0.2992539891040335,
+  "gradient_boosting": 0.06363414225600386,
+  "random_forest_depth8_bal": 0.011969198823203691,
+  "extra_trees_bal": 0.040863929523589235,
+  "lgbm_engineered": 0.12691102545170113,
+  "lgbm_adv_weighted": 0.17198725846054264
+}

@@ -1,0 +1,3 @@
+submission,level,public_score,note
+submission_level5_ensemble_weight_search.csv,5,0.98046,Current best public score. Weighted ensemble; later found to equal a compact rule on test.
+submission_level5_ensemble_engineered.csv,5,0.97566,Engineered-feature ensemble. Lower public score; likely hurt by stricter rule features.

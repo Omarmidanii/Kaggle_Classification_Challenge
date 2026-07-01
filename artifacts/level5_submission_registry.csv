@@ -1,0 +1,12 @@
+submission,candidate,type,cv_accuracy,cv_balanced_accuracy,cv_macro_f1,different_from_reference_tree_depth5,n_class1,n_class2,n_class3,recommended_order
+submission_level5_ensemble_weight_search.csv,ensemble_weight_search,ensemble,0.99875,0.9995427526291724,0.9953912856088963,8,82,189,2929,1.0
+submission_level5_ensemble_engineered.csv,ensemble_engineered,ensemble,0.9984375,0.9959585232384914,0.9935324413235193,6,80,189,2931,2.0
+submission_level5_ensemble_robust_shift.csv,ensemble_robust_shift,ensemble,0.9984375,0.9994284407864655,0.994477212545243,8,82,189,2929,3.0
+submission_level5_lgbm_regularized.csv,lgbm_regularized,single_model,0.9965625,0.9938499031641039,0.9871352956452494,11,81,187,2932,4.0
+submission_level5_lgbm_adv_weighted.csv,lgbm_adv_weighted,single_model,0.995625,0.9935069676359832,0.9844331217877729,10,82,187,2931,5.0
+submission_level5_gradient_boosting.csv,gradient_boosting,single_model,0.9971875,0.9955012758676638,0.9891202883138367,11,80,192,2928,6.0
+submission_level5_ensemble_weight_search_conservative_09.csv,ensemble_weight_search_conservative_09,postprocessed_candidate,,,,15,65,183,2952,7.0
+submission_level5_random_forest_depth8_bal.csv,random_forest_depth8_bal,single_model,0.995,0.9912311754207414,0.9793147714942787,16,82,197,2921,8.0
+submission_level5_ensemble_weight_search_conservative_095.csv,ensemble_weight_search_conservative_095,postprocessed_candidate,,,,105,57,101,3042,9.0
+submission_level5_ensemble_weight_search_conservative_098.csv,ensemble_weight_search_conservative_098,postprocessed_candidate,,,,229,34,0,3166,10.0
+submission_level5_ensemble_tree_boost.csv,ensemble_tree_boost,ensemble,0.998125,0.9923742938478104,0.9916541388239501,8,82,189,2929,

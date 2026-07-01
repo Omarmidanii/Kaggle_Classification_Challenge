@@ -12,8 +12,8 @@ decision_tree_depth5,class1,74,0.023125
 decision_tree_depth5,class2,189,0.0590625
 decision_tree_depth5,class3,2937,0.9178125
 random_forest_depth6_balanced,class1,82,0.025625
-random_forest_depth6_balanced,class2,199,0.0621875
-random_forest_depth6_balanced,class3,2919,0.9121875
+random_forest_depth6_balanced,class2,202,0.063125
+random_forest_depth6_balanced,class3,2916,0.91125
 lightgbm_baseline,class1,81,0.0253125
 lightgbm_baseline,class2,187,0.0584375
 lightgbm_baseline,class3,2932,0.91625

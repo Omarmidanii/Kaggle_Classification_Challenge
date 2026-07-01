@@ -1,0 +1,47 @@
+{
+  "level": "Level 5 - Robust models, engineered rule features, adversarial weighting, ensembles",
+  "class_names": [
+    "class1",
+    "class2",
+    "class3"
+  ],
+  "n_train": 3200,
+  "n_test": 3200,
+  "n_base_features": 21,
+  "n_engineered_features": 37,
+  "adversarial_validation_auc_for_weights": 0.75109287109375,
+  "models_tested": [
+    "decision_tree_depth4",
+    "decision_tree_depth5",
+    "random_forest_depth8_bal",
+    "extra_trees_bal",
+    "gradient_boosting",
+    "lgbm_regularized",
+    "lgbm_engineered",
+    "lgbm_adv_weighted",
+    "logreg_engineered_bal"
+  ],
+  "best_ensemble_by_stratified_cv": "ensemble_weight_search",
+  "best_ensemble_metrics": {
+    "candidate": "ensemble_weight_search",
+    "accuracy": 0.99875,
+    "balanced_accuracy": 0.9995427526291724,
+    "macro_f1": 0.9953912856088963,
+    "log_loss": 0.012543166125661347,
+    "n_errors": 4,
+    "weights": "{\"decision_tree_depth5\": 0.28538045638092596, \"lgbm_regularized\": 0.2992539891040335, \"gradient_boosting\": 0.06363414225600386, \"random_forest_depth8_bal\": 0.011969198823203691, \"extra_trees_bal\": 0.040863929523589235, \"lgbm_engineered\": 0.12691102545170113, \"lgbm_adv_weighted\": 0.17198725846054264}"
+  },
+  "submission_files": [
+    "submission_level5_lgbm_regularized.csv",
+    "submission_level5_gradient_boosting.csv",
+    "submission_level5_random_forest_depth8_bal.csv",
+    "submission_level5_lgbm_adv_weighted.csv",
+    "submission_level5_ensemble_tree_boost.csv",
+    "submission_level5_ensemble_robust_shift.csv",
+    "submission_level5_ensemble_engineered.csv",
+    "submission_level5_ensemble_weight_search.csv",
+    "submission_level5_ensemble_weight_search_conservative_09.csv",
+    "submission_level5_ensemble_weight_search_conservative_095.csv",
+    "submission_level5_ensemble_weight_search_conservative_098.csv"
+  ]
+}

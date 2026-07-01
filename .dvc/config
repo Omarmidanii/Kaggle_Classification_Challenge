@@ -1,0 +1,7 @@
+[core]
+    remote = dagshub
+['remote "dagshub"']
+    url = s3://dvc
+    endpointurl = https://dagshub.com/Omqr25/kaggle-storage.s3
+    access_key_id = 3c93f4ba06c6ef57954cc0fb30535843a38d4235
+    secret_access_key = 3c93f4ba06c6ef57954cc0fb30535843a38d4235

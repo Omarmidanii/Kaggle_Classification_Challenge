@@ -1,0 +1,27 @@
+artifact_path: file:c:/Users/LEGION/Desktop/My Files/University/ML/HW2/Midani/Kaggle_Classification_Challenge/mlruns/1/models/m-c4ef548426d544209f65a91e5c2379dc/artifacts
+flavors:
+  lightgbm:
+    code: null
+    data: model.skops
+    lgb_version: 4.6.0
+    model_class: lightgbm.sklearn.LGBMClassifier
+    serialization_format: skops
+    skops_trusted_types:
+    - lightgbm.basic.Booster
+    - lightgbm.sklearn.LGBMRegressor
+    - lightgbm.sklearn.LGBMClassifier
+    - collections.OrderedDict
+  python_function:
+    data: model.skops
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.lightgbm
+    python_version: 3.13.9
+mlflow_version: 3.14.0
+model_id: m-c4ef548426d544209f65a91e5c2379dc
+model_size_bytes: 290647
+model_uuid: m-c4ef548426d544209f65a91e5c2379dc
+prompts: null
+run_id: 9c4cbb42d9d34ab6a7770ae996d806e4
+utc_time_created: '2026-07-01 21:49:56.527448'

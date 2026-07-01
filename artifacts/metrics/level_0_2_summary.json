@@ -1,0 +1,94 @@
+{
+  "random_state": 42,
+  "data_dir": "fite_extracted",
+  "schema_checks": {
+    "has_ID_train": true,
+    "has_ID_test": true,
+    "has_target_train": true,
+    "n_features": 21,
+    "same_features_train_test": true,
+    "sample_submission_columns_ok": true,
+    "test_ids_match_sample_submission": true
+  },
+  "data_quality": {
+    "train_rows": 3200,
+    "train_cols": 23,
+    "test_rows": 3200,
+    "test_cols": 22,
+    "train_missing_values": 0,
+    "test_missing_values": 0,
+    "train_duplicate_IDs": 0,
+    "test_duplicate_IDs": 0,
+    "train_duplicate_feature_rows": 57,
+    "test_duplicate_feature_rows": 7
+  },
+  "target_distribution": [
+    {
+      "target": "class3",
+      "count": 2916,
+      "share": 0.91125,
+      "share_pct": 91.125
+    },
+    {
+      "target": "class2",
+      "count": 191,
+      "share": 0.0596875,
+      "share_pct": 5.969
+    },
+    {
+      "target": "class1",
+      "count": 93,
+      "share": 0.0290625,
+      "share_pct": 2.906
+    }
+  ],
+  "feature_cols": [
+    "f1",
+    "f2",
+    "f3",
+    "f4",
+    "f5",
+    "f6",
+    "f7",
+    "f8",
+    "f9",
+    "f10",
+    "f11",
+    "f12",
+    "f13",
+    "f14",
+    "f15",
+    "f16",
+    "f17",
+    "f18",
+    "f19",
+    "f20",
+    "f21"
+  ],
+  "continuous_features": [
+    "f1",
+    "f2",
+    "f9",
+    "f10",
+    "f14",
+    "f20"
+  ],
+  "binary_features": [
+    "f3",
+    "f4",
+    "f5",
+    "f6",
+    "f7",
+    "f8",
+    "f11",
+    "f12",
+    "f13",
+    "f15",
+    "f16",
+    "f17",
+    "f18",
+    "f19",
+    "f21"
+  ],
+  "adversarial_validation_auc": 0.65595458984375
+}

@@ -1,0 +1,43 @@
+Sample ID 599 | fold 1 | true=class1 | predicted=class3
+  Step 0: node 0: f10=0.024 > 0.00605 -> go right
+  Step 1: node 2: f14=0.053 <= 0.064465 -> go left
+  Step 2: node 3: f1=0.29 <= 0.845 -> go left
+  Step 3: node 4: f17=1 > 0.5 -> go right
+  Step 4: node 6: f2=0.0096 <= 0.0164 -> go left
+  Step 5: Leaf node 7 -> node predicts class3 (probs: class1=0.0000, class2=0.0000, class3=1.0000)
+
+Sample ID 2458 | fold 1 | true=class3 | predicted=class2
+  Step 0: node 0: f10=0.01209 > 0.00605 -> go right
+  Step 1: node 2: f14=0.102 > 0.064465 -> go right
+  Step 2: node 10: f12=0 <= 0.5 -> go left
+  Step 3: node 11: f9=0.094 <= 0.1535 -> go left
+  Step 4: node 12: f17=0 <= 0.5 -> go left
+  Step 5: Leaf node 13 -> node predicts class2 (probs: class1=0.0000, class2=0.9871, class3=0.0129)
+
+Sample ID 696 | fold 4 | true=class1 | predicted=class3
+  Step 0: node 0: f10=0.026 > 0.00605 -> go right
+  Step 1: node 2: f14=0.059 <= 0.064465 -> go left
+  Step 2: node 3: f20=0.15 > 0.1425 -> go right
+  Step 3: Leaf node 5 -> node predicts class3 (probs: class1=0.0000, class2=0.0000, class3=1.0000)
+
+Sample ID 1738 | fold 4 | true=class3 | predicted=class1
+  Step 0: node 0: f10=0.0073 > 0.00605 -> go right
+  Step 1: node 2: f14=0.061 <= 0.064465 -> go left
+  Step 2: node 3: f20=0.109 <= 0.1425 -> go left
+  Step 3: Leaf node 4 -> node predicts class1 (probs: class1=1.0000, class2=0.0000, class3=0.0000)
+
+Sample ID 2269 | fold 4 | true=class3 | predicted=class2
+  Step 0: node 0: f10=0.0079 > 0.00605 -> go right
+  Step 1: node 2: f14=0.445 > 0.064465 -> go right
+  Step 2: node 6: f12=0 <= 0.5 -> go left
+  Step 3: node 7: f9=0.123 <= 0.1515 -> go left
+  Step 4: node 8: f17=0 <= 0.5 -> go left
+  Step 5: Leaf node 9 -> node predicts class2 (probs: class1=0.0000, class2=0.9935, class3=0.0065)
+
+Sample ID 2426 | fold 4 | true=class3 | predicted=class2
+  Step 0: node 0: f10=0.0065 > 0.00605 -> go right
+  Step 1: node 2: f14=0.096 > 0.064465 -> go right
+  Step 2: node 6: f12=0 <= 0.5 -> go left
+  Step 3: node 7: f9=0.045 <= 0.1515 -> go left
+  Step 4: node 8: f17=0 <= 0.5 -> go left
+  Step 5: Leaf node 9 -> node predicts class2 (probs: class1=0.0000, class2=0.9935, class3=0.0065)

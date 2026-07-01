@@ -1,0 +1,10 @@
+leaf_id,train_count,dominant_class,dominant_count,n_classes,purity,test_count
+13,194,class2,191,2,0.9845360824742269,189.0
+6,1,class3,1,1,1.0,7.0
+9,1,class1,1,1,1.0,0.0
+8,2,class3,2,1,1.0,1.0
+14,6,class3,6,1,1.0,4.0
+15,9,class3,9,1,1.0,11.0
+16,38,class3,38,1,1.0,54.0
+5,92,class1,92,1,1.0,74.0
+1,2857,class3,2857,1,1.0,2860.0

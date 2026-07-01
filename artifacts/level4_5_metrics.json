@@ -1,0 +1,27 @@
+{
+  "oof_accuracy": 0.998125,
+  "oof_balanced_accuracy": 0.9923742938478104,
+  "oof_macro_f1": 0.9916541388239501,
+  "confusion_matrix": [
+    [
+      91,
+      0,
+      2
+    ],
+    [
+      0,
+      191,
+      0
+    ],
+    [
+      1,
+      3,
+      2912
+    ]
+  ],
+  "class_names": [
+    "class1",
+    "class2",
+    "class3"
+  ]
+}

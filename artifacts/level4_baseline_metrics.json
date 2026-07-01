@@ -1,0 +1,7 @@
+{
+  "model": "decision_tree_depth5",
+  "accuracy": 0.998125,
+  "balanced_accuracy": 0.9923742938478104,
+  "macro_f1": 0.9916541388239501,
+  "log_loss": 0.03922944637167138
+}

@@ -1,4 +1,5 @@
 [core]
-    remote = storage
-['remote "storage"']
-    url = ../../dvc_storage
+    remote = dagshub
+['remote "dagshub"']
+    url = s3://dvc
+    endpointurl = https://dagshub.com/Omqr25/kaggle-storage.s3

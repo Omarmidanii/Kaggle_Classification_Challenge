@@ -1,0 +1,6 @@
+order,candidate,submission_file,submit?,reason
+0,current_best_reproduced,submission_level7_current_best_reproduced.csv,no,Sanity check only. It reproduces the current best public score submission.
+1,class2_f9_relaxed_0160,submission_level7_class2_f9_relaxed_0160.csv,"yes, first",Smallest useful change: only 2 rows differ from current best. Tests whether class2 f9 boundary should be slightly wider.
+2,class2_f9_strict_0145,submission_level7_class2_f9_strict_0145.csv,maybe,Medium-risk opposite direction: converts 6 borderline class2 predictions to class3.
+3,class2_f9_relaxed_0170,submission_level7_class2_f9_relaxed_0170.csv,maybe later,Higher-risk relaxed class2 boundary; changes 6 rows and increases class2 count.
+4,class1_strict_base_rule / class1_strict_f2_005,submission_level7_class1_strict_base_rule.csv / submission_level7_class1_strict_f2_005.csv,not recommended now,The engineered submission already got worse after converting class1-like rows to class3.

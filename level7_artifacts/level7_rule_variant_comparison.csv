@@ -1,0 +1,8 @@
+candidate,submission_file,class1_mode,f2_relax_for_class1,f9_thr,train_accuracy_sanity,train_balanced_accuracy_sanity,train_macro_f1_sanity,train_errors_sanity,test_class1_count,test_class2_count,test_class3_count,different_from_current_best
+current_best_reproduced,submission_level7_current_best_reproduced.csv,f1_or_f2low,0.01,0.1535,0.998125,0.9958442113957845,0.9917118329206019,6,82,189,2929,0
+class1_relaxed_no_f1_guard,submission_level7_class1_relaxed_no_f1_guard.csv,no_f1_guard,0.01,0.1535,0.9978125,0.9957298995530776,0.9899099640633001,7,82,189,2929,0
+class2_f9_relaxed_0160,submission_level7_class2_f9_relaxed_0160.csv,f1_or_f2low,0.01,0.16,0.9975,0.9956155877103706,0.9898880559291013,8,82,191,2927,2
+class1_strict_f2_005,submission_level7_class1_strict_f2_005.csv,f1_or_f2low,0.005,0.1535,0.998125,0.9958442113957845,0.9917118329206019,6,77,189,2934,5
+class2_f9_strict_0145,submission_level7_class2_f9_strict_0145.csv,f1_or_f2low,0.01,0.145,0.9971875,0.9906086093015437,0.9889023128119815,9,82,183,2935,6
+class2_f9_relaxed_0170,submission_level7_class2_f9_relaxed_0170.csv,f1_or_f2low,0.01,0.17,0.9965625,0.9952726521822499,0.9871851127056145,11,82,195,2923,6
+class1_strict_base_rule,submission_level7_class1_strict_base_rule.csv,base,0.01,0.1535,0.998125,0.9958442113957845,0.9917118329206019,6,75,189,2936,7
